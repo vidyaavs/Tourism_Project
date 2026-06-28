@@ -1,10 +1,12 @@
-Tourism Package Prediction using MLOps
+# Tourism Package Prediction using MLOps
 
 Project Overview
 
 This project implements an end-to-end MLOps pipeline to predict whether a customer is likely to purchase a tourism package. The solution covers data registration, data preparation, model training, experiment tracking with MLflow, model deployment using Streamlit on Hugging Face Spaces, containerization with Docker, and CI/CD automation using GitHub Actions.
 
-Project Workflow
+## Project Workflow
+
+```text
 Dataset Registration
         │
         ▼
@@ -27,8 +29,9 @@ Docker Containerization
         │
         ▼
 GitHub Actions CI/CD
+```
 
-Technologies Used
+## Technologies Used
 | Category             | Technology                     |
 | -------------------- | ------------------------------ |
 | Programming Language | Python                         |
@@ -70,14 +73,14 @@ Tourism_Project/
 └── README.md
 ```
 
-Model Performance
+## Model Performance
 Accuracy
 Precision
 Recall
 F1-score
 ROC-AUC
 
-Deployment
+## Deployment
 Hugging Face Space
 
 https://huggingface.co/spaces/vidyaa2026/Tourism_Package_Prediction
