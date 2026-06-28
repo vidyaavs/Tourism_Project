@@ -1,8 +1,8 @@
 # Tourism Package Prediction using MLOps
 
-Project Overview
+## Project Overview
 
-This project implements an end-to-end MLOps pipeline to predict whether a customer is likely to purchase a tourism package. The solution covers data registration, data preparation, model training, experiment tracking with MLflow, model deployment using Streamlit on Hugging Face Spaces, containerization with Docker, and CI/CD automation using GitHub Actions.
+This project implements an end-to-end MLOps pipeline to predict whether a customer is likely to purchase a tourism package. The solution covers dataset registration, data preparation, model training, experiment tracking using MLflow, model deployment with Streamlit on Hugging Face Spaces, containerization using Docker, and CI/CD automation with GitHub Actions..
 
 ## Project Workflow
 
@@ -74,11 +74,13 @@ Tourism_Project/
 ```
 
 ## Model Performance
-Accuracy
-Precision
-Recall
-F1-score
-ROC-AUC
+The XGBoost model was evaluated using the following classification metrics:
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* ROC-AUC
 
 ## Deployment
 Hugging Face Space
